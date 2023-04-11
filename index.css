@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #a04F65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+nav ul li {
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    height: 20px;
+    display: flex;
+
+}
+
+li:not(:nth-last-child(1)) {
+    border-right: 1px solid white;
+}
+li:hover{
+    background-color: rgb(242, 240, 229);
+    height: 40px;
+}
+
+header {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR44slcLfwBHb52EtD_0kAHU2DhfUuzzNvwYSF_Ei__nn_jkjw_');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    background-color: rgb(242, 240, 229)
+}
+
+section#texto {
+    width: 50%;
+    padding: 20px;
+    margin: 70px;
+}
+
+section#texto h1 {
+    color: #a04F65;
+    font-size: 30px;
+}
+
+section#texto p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+section#imagens {
+    width: 50%;
+    min-width: 400px;
+    padding: 20px;
+    margin-right: 70px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 800px;
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem img {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #a04F65 solid 1px;
+
+}
+
+
+.imagem h3 {
+    background-color: #a04F65;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: #a04F65 solid 1px;
+
+
+}
+
+footer {
+    height: 30px;
+    background-color: #a04F65;
+}
